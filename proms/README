@@ -1,0 +1,85 @@
+List of DEC boot PROMs as used on M9312 Bootstrap/Terminator module
+and on some PDP-11 modules
+
+Copyright 2000-2005, 2019 Eric Smith <spacewar@gmail.com>
+
+
+Suitable PROMs are 512x4 three-state:
+
+    Part Number	  Vendor                         
+    -----------	  -----------------------------  
+    23-000A9      Digital Equipment Corporation
+    82S131        Signetics, Philips
+    Am27S13	  AMD                            
+    6306          MMI
+    63S241	  MMI                            
+    74S571        National Semiconductor
+    MB7053        Fujitsu
+    HM-7621       Harris  
+    MCM7621       Motorola  
+    29611         Raytheon
+    3622          Intel
+    93446         Fairchild
+    IM5624        Intersil
+
+
+DEC part numbers for programmed boot PROMs are:
+
+    Part        Hex     Boot    Supported
+    Number      Cksm    Code    Devices
+    --------    ----    ----    -----------------------------------------------
+
+    23-751A9    0698     DL     RL01, RL02 cartridge disks
+
+    23-752A9    0627     DM     RK06, RK07 cartridge disks
+
+    23-753A9    066d     DX     RX01 floppy disk, single density
+
+    23-755A9    0622     DP     RP02/RP03 disk packs
+                         DB     Massbus disk packs RP04, RP05, RP06, RM02, RM03
+
+    23-756A9    0613     DK     RK03, RK05 cartridge disks
+                         DT     TU55, TU56 DECtape on TC11 DECtape control
+
+    23-757A9    06f2     MM     Massbus tape drives TU10, TU45, TU77, TE16
+
+    23-758A9    06dc     MT     TS03, TU10, TE10 tape drives
+
+    23-759A9    04bc     DS     RS03, RS04
+
+    23-760A9    0681     TT     ASR33 paper tape reader (low speed)
+                         PP     PC05 paper tape reader (high speed)
+
+    23-761A9    05e2     CT     TU60 DECcassette
+
+    23-762A9    ????     ??     RS11, RS64
+
+    23-763A9    ????     ??     CR11 card reader
+
+    23-764A9    06e1     MS     TS04, TS11, TU80 tape drives
+
+    23-765A9    0603     DD     TU58 DECtape II
+
+    23-767A9    0677     DU     MSCP disks, including RAxx drives on UDA50
+
+    23-811A9    0646     DY     RX02 floppy disk, double density
+
+    23-862A9    0625     XM     DMC11, DMR11 DECnet DDCMP
+    23-863A9    063f
+    23-864A9    0551
+
+    23-865A9    ????     XW     DUP11 DECnet DDCMP
+    23-866A9    ????
+    23-867A9    ????
+
+    23-868A9    ????     XU     DU11 DECnet DDCMP
+    23-869A9    ????
+    23-870A9    ????
+
+    23-926A9    ????     XL     DL11-E DECnet DDCMP
+    23-927A9    ????
+    23-928A9    ????
+
+    23-E22A9    ????     XE     DEUNA DECnet Ethernet
+
+    23-E39A9    0677     MU     TMSCP tapes, including TK50, TU81
